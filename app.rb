@@ -11,7 +11,7 @@ end
   end
   
   post '/checkout' do
-    params[item][]
+    params[:item]
   end
 
 end
