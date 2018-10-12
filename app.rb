@@ -12,6 +12,8 @@ end
   
   post '/checkout' do
     params[:item]
+    
+    erb :checkout
   end
 
 end
